@@ -620,7 +620,7 @@ struct _virDomainInterface {
 #endif
 
 #ifndef VIR_DOMAIN_TUNABLE_CPU_IOTHREAD_QUOTA
-# define VIR_DOMAIN_TUNABLE_CPU_IOTHREAD_QUOTA "cputune.iothread_quota"
+#define VIR_DOMAIN_TUNABLE_CPU_IOTHREAD_QUOTA "cputune.iothread_quota"
 #endif
 
 
@@ -911,7 +911,7 @@ struct _virDomainInterface {
 #define VIR_DOMAIN_MEMORY_STAT_DISK_CACHES 10
 #endif
 
-/* 4.10.0
+/* 4.10.0 */
 
 #ifndef VIR_DOMAIN_SHUTOFF_DAEMON
 #define VIR_DOMAIN_SHUTOFF_DAEMON 8
